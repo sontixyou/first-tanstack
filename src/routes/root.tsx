@@ -5,5 +5,10 @@ export const Route = createFileRoute('/root')({
 })
 
 function RouteComponent() {
-  return <div>Hello "/root"!</div>
+  const appName = import.meta.env.VITE_APP_NAME
+
+  return <>
+    <h1>{appName}</h1>
+    <div>Hello "/root"!</div>
+  </>
 }

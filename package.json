@@ -9,5 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "@tanstack/react-router": "^1.132.6",
+    "@tanstack/react-start": "^1.132.6",
+    "vite": "^7.1.7"
+  }
 }

@@ -9,7 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
   "dependencies": {
     "@tanstack/react-router": "^1.132.6",
     "@tanstack/react-start": "^1.132.6",

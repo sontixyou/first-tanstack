@@ -37,7 +37,7 @@ cp .env.example .env
 
 4. Start the MySQL database:
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 5. Start the development server:
@@ -62,8 +62,8 @@ Visit http://localhost:3000/health to check the database connection status.
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
-- `docker-compose up -d` - Start MySQL database
-- `docker-compose down` - Stop MySQL database
+- `docker compose up -d` - Start MySQL database
+- `docker compose down` - Stop MySQL database
 
 ## Database Configuration
 
